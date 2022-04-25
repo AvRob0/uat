@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+    <link rel="stylesheet" href="styleData.css"><!--links the css page to the html-->
+    <script src="dataLoader-1.js"></script><!--links the Javascript page to the html-->
+    <title>Data Loader</title><!--Title of the tab-->
+</head>
+<body>
+   
+    <table  width="85%"><!--width of the table-->
+        <tr align="center"><!--makes the table center of the page-->
+            <td>
+                <caption  class="header1"><!--Used for the parent element with class element for editing-->
+                    <h1 class="ef1"><!--The h1 tag and class tages to classify the header and class for editing purposes-->
+                     Space Program
+                    </h1>
+                </caption>
+            </td>
+            <td align="center"><div class="pic"><img id="UATSpace-1" src="UATSpaceLogo.png"></td></div><!--td-stands for table display and contains the division tags and image tags
+            for the insert of the picture-->
+         
+                       
+        </tr>
+    </table><!--End of the first table-->  
+    <table id="data" border="2" width="85%"><!--start of the new table
+    and contains the border style and the width-->
+        <col style="width: 20%;"><!--tells the style of width of the  column-->
+        <col style="width: 20%;"><!--Same as above statement-->
+        <thead><!--end of the thead, end of the first column-->
+            <tr class="chartH" style="font-family:monospace; font-size:x-large; color:darkorange;"><!--controls the style of the font and size and color 
+            and holds the 2 catagories of the chart-->
+                <th>Data Type</th>
+                <th>Reading</th>
+            <tr>
+        </thead><!--end of the thead-->
+        <tbody class="chart" style="font-weight:bolder; font-size: large; color: yellowgreen;"><!--start of the rest of the table
+        also controls the font style and how bold and font size and color-->
+            <tr id="timeEla"><td>Time elapsed:</td><td>15 seconds</td></tr>
+            <tr id="latit"><td>Latitud:</td><td>0</td></tr>
+            <tr id="longl"><td>Longltude:</td><td>0</td></tr>
+            <tr id="gpsAlt"><td>GPS Altitude:</td><td>0</td></tr>
+            <tr id="bmpSenAlt"><td>BMP Sensor Altitude:</td><td>30383.04</td></tr>
+            <tr id="bmpSenPress"><td>BMP Sensor Pressure:</td><td>2.34</td></tr>
+            <tr id="bmpSenTemp"><td>BMP Sensor Temperature:</td><td>0</td></tr><!--All the tr tag contains the catagories and data-->
+            <tr id="digiSenTemp"><td>Digital Sensor Temperature:</td><td>24.12</td></tr>
+            <tr id="CssSenTemp"><td>CSS Sensor Temperature:</td><td>25</td></tr>
+            <tr id="CssSenEC"><td>CSS  Sensor eCO2:</td><td>400</td></tr>
+            <tr id="CssSenTv"><td>CSS Sensor TVOC:</td><td>0</td></tr>
+            <tr id="uV"><td>UV:</td><td>0</td></tr>
+            <tr id="accX"><td>Accel X:</td><td>-0.87</td></tr>
+            <tr id="accY"><td>Accel Y:</td><td>-0.02</td></tr>
+            <tr id="accZ"><td>Accel Z:</td><td>9.61</td></tr>
+            <tr id="magX"><td>Magnetic X:</td><td>0.13</td></tr>
+            <tr id="magY"><td>Magnetic Y:</td><td>0.57</td></tr>
+            <tr id="magZ"><td>Magnetic Z:</td><td>-0.24</td></tr>
+            <tr id="gyroX"><td>Gyro X:</td><td>4.66</td></tr>
+            <tr id="gyroY"><td>Gyro Y:</td><td>0.01</td></tr>
+            <tr id="gyroZ"><td>Gyro Z:</td><td>-0.4</td></tr>
+        </tbody><!--end of the table body-->
+        <div></div><!--Used for the divide of the table and buttons-->
+            <center class="bttnpos"><!--center the buttons-->
+            <button onclick="start();" style="font-weight: bold; color:red; margin-right: 20%;" class="bttneff" id="startB">Activate</button></bttneff><!--the ui tags for the user code for buttons contains all the elements for editing and js-->
+            <button onclick="stop();" style="font-weight: bold; color:red; margin-left: 5%;" class="button2eff" id="stopB" disabled="true">DeActivate</button></button2eff><!--same as the comment as above-->
+            </center>
+        </table>
+       
+            
+            
+</body>
+</html>

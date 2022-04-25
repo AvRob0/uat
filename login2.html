@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+    <script src="logOptions.js"></script><!--links the javascript-->
+    <link rel="stylesheet" href="deco.css"><!--links the css page-->
+    <title>Validate Your Creditials</title><!--title of tab-->
+</head>
+<body>
+    <h1 align="center">Please log in<br> </h1><!--header tag makes the title of the browser aand aligns to center-->  
+    <br><!--creates spacing -->
+     <center><!--center tag aligns the content-->
+    <div class="color1"><!--div tag creates a tunnel for the class tag to makes changes to names on css when i edit-->
+    <form  aria-autocomplete="off" autid="loginSubmit" onsubmit="return false"><!--the form tag creates a form  for the user to submit-->
+        <p id="status" class="statusDis"></p><!--paragragh tag and id, class tags makes way for the browser to display the results of your login status--><br>
+                                                                             
+        <br><!--creates spacing -->
+    First Name<!--Name of first input box--> <input aria-autocomplete="false" type="text" Id="fName" class="inRow1"/><br><!--input boxe 1 options-->
+    Last Name<!--Name of second input box--> <input aria-autocomplete="false" type="text" id="lName" class="inRow2"/><br><!--input box 2 options-->
+    Badge Num<!--Name of input box 3--> <input type="number" id="bNum" class="inRow3" /><br><!--input boxes 3 options-->
+        <input type="submit" onclick="runInfo();" class="inRow4" /><br><!--input box 4 options-->
+       
+    </form>
+    </div>
+     </center>
+     <marquee behavior="scroll" direction="right"><!--picture effect options-->
+     <img align="center" src="feather.png " alt="feather" ><!--picture insert-->
+     </marquee>
+</body>
+</html>

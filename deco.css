@@ -1,0 +1,162 @@
+
+.color1{/*effect for the names*/
+    padding-bottom: 4rem;
+    align-self: end;
+    justify-self: center;
+    padding-bottom: 4rem;
+    font-family: 'Teko', sans-serif;
+    grid-column: 1;
+    grid-row: 1;
+    color: #8000ff;
+    animation: glow 4s infinite ease-in-out;
+}
+@keyframes glow {/*glow effets*/
+    from{
+        text-shadow: rgb(255, 255, 255) 1px 0px 5px;
+        /*text-shadow: 0px 0px 50px yellow;*/
+    }
+    to {
+        /*text-shadow: yellowgreen 10px 6em 6em 6px 0 10px red;*/
+        text-shadow: 100px 0px 50px yellowgreen, 50px 0 150px red;
+    }
+ }
+
+h1{/*header effects*/
+    align-self: end;
+    justify-self: center;
+    font-size: 35px;
+    color: #8000ff;
+    font-family: monospace;
+    background: transparent;
+    animation: colorRotate 9s linear 0s infinite;
+}
+@keyframes colorRotate {/*color rotate options*/
+    from{
+        color: blueviolet;
+    }
+    30% {
+        color: yellowgreen;
+    }
+    40%{
+        color:firebrick
+    }
+    30%{
+        color: azure;
+    }
+    50%{
+        color: blue;
+    }
+    75%{
+        color: violet;
+    }
+    100%{
+        color: goldenrod;
+    }
+}
+body{/*color of body page*/
+   
+    background-color: black;
+}
+.inRow3:focus-within {/*Input box 3 focus-within effects*/
+    align-self: end;
+    justify-self: center;
+    width: 40px;
+    border-radius: 4em;
+    border-right: solid 4px red;
+    border-left: solid 4px red;
+    border-bottom: solid 6px black;
+    border-top: solid 6px black;
+    background-color: black;
+    color: red;
+    font-family: monospace;
+    font-weight: bold;
+    padding: 5px 5px;
+    margin: 8px 0;
+}
+.inRow2:focus-within {/*input box 2 focus-within effects*/
+    align-self: end;
+    justify-self: center;
+    border-radius: 5em;
+    border-left: solid 4px yellowgreen;
+    border-right: solid 4px yellowgreen;
+    border-bottom: solid 6px blue;
+    border-top: solid 6px blue;
+    background-color: black;
+    color: yellowgreen;
+    font-family: monospace;
+    font-weight: bold;
+    padding: 5px 5px;
+    margin: 8px 0;
+
+}
+.inRow1:focus-within {/*input box 1 focus-within effects*/
+align-self: end;
+justify-self: center;
+border-radius: 5em;
+border-bottom: solid 6px blue ;
+border-top: solid 6px blue;
+border-left: solid 4px yellowgreen;
+border-right: solid 4px yellowgreen;
+background-color: black;
+color: yellowgreen;
+font-family: monospace;
+font-weight: bold;
+padding: 5px 5px;
+margin: 8px 0;
+}
+.inRow4:hover{/*input box 4 hover options*/
+    position: relative;
+    border: solid 0.2em whitesmoke;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-left: 9px;
+    border-right:9ex;
+    border-top:solid orangered;
+    border-bottom: solid orangered;
+
+}
+
+.inRow4 {/*input box 4 effects*/
+position: relative;
+border:  5px solid whitesmoke;
+color: #8000ff;
+display: inline-block;
+font-size: 20px;
+border-radius: 5ex;
+font-weight: bold;
+background: transparent;
+border-radius: 35%;
+border-style: double dashed;
+border: black;
+
+}
+.inRow3{/*input box 3 effects*/
+    align-self: end;
+    justify-self: center;
+    color: blue;
+    padding: 5px 5px;
+    margin: 8px 0;
+    background-color: black;
+    border: solid 3px blue;
+}
+.inRow2 {/*input box 2 effects*/
+    align-self: end;
+    justify-self: center;
+    color: red;
+    padding: 5px 5px;
+    margin: 8px 0;
+    background-color: black;
+    border: solid 2px red;
+}
+
+.inRow1 {/* input box 1 effects*/
+    align-self: end;
+    justify-self: center;
+    color: red;
+    padding: 5px 5px;
+    margin: 8px 0;
+    background-color: black;
+    border: solid 2px red;
+}
+
+
+
